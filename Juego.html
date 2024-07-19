@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game!</title>
+    <link rel="stylesheet" href="xxx.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <h1>Responde las preguntas en el tiempo restante: <span id="timer"></span></h1>
+
+    <div class="container">
+        <h3>Pregunta 1</h3>
+        <p>1. ¿Cuál es el hueso más largo del ser humano?</p>
+        <input type="text" id="q1" placeholder="Ingrese respuesta">
+
+        <h3>Pregunta 2</h3>
+        <p>2. ¿Cuántos huesos tiene el ser humano?</p>
+        <input type="text" id="q2" placeholder="Ingrese respuesta">
+
+        <h3>Pregunta 3</h3>
+        <p>3. ¿Cuál es la ciudad más poblada?</p>
+        <input type="text" id="q3" placeholder="Ingrese respuesta">
+
+        <h3>Pregunta 4</h3>
+        <p>4. ¿Cuál es el punto más bajo a donde ha llegado la humanidad?</p>
+        <input type="text" id="q4" placeholder="Ingrese respuesta">
+
+        <h3>Pregunta 5</h3>
+        <p>5. ¿Cuál es el edificio más alto del mundo?</p>
+        <input type="text" id="q5" placeholder="Ingrese respuesta">
+
+        <br><button onclick="calificarRespuestas()">Terminar</button>
+        <button onclick="repetirCuestionario()">Repetir</button>
+    </div>
+
+    <audio id="alarmasonido" src="yaperblue.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

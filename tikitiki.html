@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>intervalo</title>
+</head>
+<body>
+    <script type="text/javascript"> 
+        function mostrarFecha(){
+          let hoy= new Date();
+          let fecha = hoy.toLocaleDateString('es-ES');
+          alert("Fecha de hoy es: " + fecha)
+        }
+        let intervalo = setInterval(mostrarFecha, 1000*3);
+    </script>
+</body>
+</html>
